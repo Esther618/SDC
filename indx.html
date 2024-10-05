@@ -1,0 +1,140 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>计算器介绍</title>  
+    <style>  
+        /* 全局样式 */  
+        body {  
+            font-family: 'Microsoft YaHei', sans-serif;  
+            line-height: 1.6;  
+            margin: 0;  
+            padding: 0;  
+            background: linear-gradient(135deg, #f0f8ff, #e6f7ff);  
+            color: #333;  
+            display: flex;  
+            flex-direction: column;  
+            align-items: center;  
+        }  
+  
+        /* 头部样式 */  
+        header {  
+            background-color: #4CAF50;  
+            color: white;  
+            width: 100%;  
+            text-align: center;  
+            padding: 1.5rem 0;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+        }  
+  
+        /* 内容容器样式 */  
+        .container {  
+            max-width: 800px;  
+            width: 90%;  
+            margin: 2rem auto;  
+            padding: 2rem;  
+            background-color: rgba(255, 255, 255, 0.9);  
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  
+            border-radius: 10px;  
+            text-align: center;  
+        }  
+  
+        /* 标题样式 */  
+        h1 {  
+            margin-bottom: 1.5rem;  
+            font-size: 2.5rem;  
+            font-weight: normal;  
+        }  
+  
+        /* 章节样式 */  
+        section {  
+            margin-bottom: 3rem;  
+            padding: 0 1rem;  
+        }  
+  
+        /* 图片样式 */  
+        section img {  
+            max-width: 30%;  
+            height: auto;  
+            border-radius: 10px;  
+            transition: transform 0.3s ease;  
+        }  
+  
+        section img:hover {  
+            transform: scale(1.05);  
+        }  
+  
+        /* 按钮容器样式 */  
+        .button-container {  
+            margin-top: 3rem;  
+        }  
+  
+        /* 按钮样式 */  
+        .button-container a {  
+            background-color: #4CAF50;  
+            color: white;  
+            padding: 1rem 2rem;  
+            text-decoration: none;  
+            border-radius: 10px;  
+            font-size: 1.2rem;  
+            transition: background-color 0.3s ease;  
+        }  
+  
+        .button-container a:hover {  
+            background-color: #45a049;  
+        }  
+  
+        /* 响应式设计 */  
+        @media (max-width: 768px) {  
+            section img {  
+                max-width: 50%;  
+            }  
+        }  
+  
+        @media (max-width: 480px) {  
+            section img {  
+                max-width: 100%;  
+            }  
+  
+            .button-container a {  
+                font-size: 1rem;  
+                padding: 0.75rem 1.5rem;  
+            }  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <h1>计算器介绍</h1>  
+    </header>  
+    <div class="container">  
+        <h1>欢迎了解我的计算器</h1>  
+        <section>  
+            <h2>基础运算</h2>  
+            <p>支持加法、减法、乘法、除法，输入整数、小数和分数。</p>  
+            <img src="D:\软件工程\屏幕截图 2024-10-05 175306.png" alt="基础运算示例">  
+        </section>  
+        <section>  
+            <h2>括号运算</h2>  
+            <p>可以处理带括号的复杂表达式，确保运算顺序正确。</p>  
+            <img src="D:\软件工程\屏幕截图 2024-10-05 175744.png" alt="括号运算示例">  
+        </section>  
+        <section>  
+            <h2>排列组合与阶乘</h2>  
+            <p>提供组合数学相关功能，轻松解决排列组合与阶乘问题。</p>  
+            <img src="D:\软件工程\屏幕截图 2024-10-05 181342.png" alt="排列组合与阶乘示例"> 
+            <img src="D:\软件工程\屏幕截图 2024-10-05 181415.png" alt="排列组合与阶乘示例">
+        </section> 
+        <section>  
+            <h2>对数运算</h2>  
+            <p>可以处理自然对数，常用对数，解决对数计算问题。</p>  
+            <img src="D:\软件工程\屏幕截图 2024-10-05 183108.png" alt="括号运算示例">  
+            <img src="D:\软件工程\屏幕截图 2024-10-05 183846.png" alt="括号运算示例">  
+        </section> 
+        <div class="button-container">  
+            <a href="https://codepen.io/Allure816/full/WNVxrvY">前往计算器页面</a>  
+        </div>  
+    </div>  
+</body>  
+</html>
